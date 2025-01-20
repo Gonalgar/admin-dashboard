@@ -1,7 +1,8 @@
 body {
+    margin: 0;
     font-family: "Roboto";
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: auto auto;
     grid-template-areas: "sidebar header" "sidebar main-content";
 }
@@ -24,10 +25,54 @@ body {
 
 .header {
     grid-area: header;
-    background-color: lightcoral;
 }
+
 
 .main-content {
     grid-area: main-content;
-    background-color: aquamarine;
+    background-color: #e2e8f0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.content-projects {
+    padding: 10px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+
+.projects .card {
+    background-color: white;
+    border-left: 10px solid #F0B429;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    p {
+        color: grey;
+    }
+}
+
+.announcements {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.trending {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
