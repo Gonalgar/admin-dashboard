@@ -1,0 +1,24 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto;
+}
+
+.sidebar {
+    grid-column: 1 / 2;
+    grid-row: span 2;
+    display: grid;
+    background-color:bisque;
+}
+
+.header {
+    grid-column: 2 / 4;
+    display: grid;
+    background-color: lightcoral;
+}
+
+.main-content {
+    grid-column: 2 / 4;
+    display: grid;
+    background-color: aquamarine;
+}
