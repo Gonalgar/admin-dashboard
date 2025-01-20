@@ -123,10 +123,10 @@ body {
     height: 25px;
 }
 
-.subheader-1 {
+.subheader-1, .subheader-2  {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
     margin: 0 15px;
@@ -141,7 +141,6 @@ body {
 .searchbar {
     width: 600px;
     padding: 10px;
-    margin-right: 100px;
     border-radius: 25px;
     border: none;
     background-color: #e2e8f0;
@@ -154,4 +153,41 @@ button {
     background-color: #1992d4;
     color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
 }
+
+.subheader-2 img {
+    width: 75px;
+    height: 75px;
+}
+
+.left, .user-data {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.right, .buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar img {
+  width: 30px;
+  height: 30px;
+}
+
+.greeting {
+    margin: 0;
+
+    p {
+        margin: 5px 0;
+        font-weight: bold;
+    }
+
+    h2 {
+        margin: 0;
+    }
+}
+
