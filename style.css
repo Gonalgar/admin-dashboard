@@ -253,5 +253,44 @@ hr {
     width: 100%;
     background-color: #e2e8f0;
     height: 2px;
-  }
+}
   
+.side-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.trending {
+    padding: 20px;
+}
+
+.trending .card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+    
+    img {
+        width: 50px;
+        height: 50px;
+    }
+
+    h4 {
+        margin: 0;
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    p {
+        margin: 0;
+        color: grey;
+        font-size: 15px;
+    }
+}
+
+.trending .card .details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
