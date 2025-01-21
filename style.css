@@ -13,12 +13,22 @@ body {
     background-color:#1992d4;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
     padding: 15px;
 
     .shortcuts{
         margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
+
+    .settings {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
 }
 
 .sidebar .item {
