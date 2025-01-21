@@ -136,9 +136,24 @@ body {
 
 .announcements {
     background-color: white;
-    padding: 10px;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+
+    h4 {
+        margin: 0;
+        font-size: 15px;
+    }
+
+    p {
+        margin: 0;
+        color: grey;
+        font-size: 13px;
+    }
 }
 
 .trending {
@@ -232,3 +247,11 @@ button {
     }
 }
 
+hr {
+    border: 0;
+    display:block;
+    width: 100%;
+    background-color: #e2e8f0;
+    height: 2px;
+  }
+  
